@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto Instagram</title>
+    <title>Cadastre-se</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,22 +11,32 @@
     <main id="wrapper">
 
         <!-- Área do container, que engloba os 2 lados, serve para posicionar corretamente ambos-->
-        <section id="container">
-
-            <!-- Coluna da Esquerda -->
-            <div class="column left">
-
-            </div>
-
+        <section id="container-signup">
             <!-- Coluna da Direita -->
-            <div class="column right">
+            <div class="column">
                 <div class="login-painel">
                     <div class="logo">
                         <img class="logo-img" src="imagens/logo.png" alt="Logo do Instagram">
                     </div>
+
+                    <div class="message">
+                        <span>Cadastre-se para ver fotos e vídeos dos seus amigos.</span>
+                    </div>
+
+                    <button class="cta-button">
+                        Entrar no Facebook
+                    </button>
+
+                    <div class="divisor-container">
+                        <div class="line"></div>
+                        <div class="divisor-tag">ou</div>
+                        <div class="line"></div>
+                    </div>
                     
                     <form action="">
-                        <input placeholder="Telefone, usuário ou email" type="text" name="username">
+                        <input placeholder="Número de celular ou email" type="text" name="email">
+                        <input placeholder="Nome completo" type="text" name="name">
+                        <input placeholder="Username" type="text" name="username">
                         <input placeholder="Senha" type="password" name="password">
 
                         <input type="submit" value="Entrar">
@@ -34,7 +44,7 @@
                 </div>
 
                 <div class="infobox">
-                    <p>Não possui uma conta? <a href="cadastro.html">Cadastre-se aqui</a></p>
+                    <p>Tem uma conta? <a href="index.html">Conecte-se</a></p>
                 </div>
 
                 <div class="get-app-panel">
